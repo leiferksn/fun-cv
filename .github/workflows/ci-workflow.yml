@@ -14,7 +14,7 @@ jobs:
     - uses: actions/checkout@v4
 
     - name: Install xstlproc
-      run: sudo apt-get -y install xstlproc
+      run: sudo apt-get -y install xsltproc
 
     - name: Generate site 
       run: . ./generate-site.sh 
