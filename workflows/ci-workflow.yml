@@ -1,0 +1,191 @@
+name: Powertwin PROD Pipeline (C/Java)  
+
+on:
+  push:
+    branches: 
+      - '*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest 
+
+    steps:
+    - run: echo ${{github.ref}}
+    - uses: actions/checkout@v4
+
+    - name: Setup JDK
+      uses: actions/setup-java@v4
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+
+    - name: Install cmake 
+      run: sudo apt-get -y install cmake 
+
+    - name: Install subunit 
+      run: sudo apt-get -y install subunit 
+
+    - name: Install subunit-dev 
+      run: sudo apt-get -y install libsubunit-dev 
+
+    - name: Setup Libcheck Directory 
+      run: |
+        mkdir -p $HOME/.local/libcheck
+        cd ~/.local/libcheck
+        echo "LD_LIBRARY_PATH=$HOME/.local/libcheck/lib:$LD_LIBRARY_PATH" >> $GITHUB_ENV
+        echo "LIBRARY_PATH=$HOME/.local/libcheck/lib" >> $GITHUB_ENV
+        echo "CHECK_INCLUDE_DIR=$HOME/.local/libcheck/include" >> $GITHUB_ENV
+        # echo "CTEST_OUTPUT_ON_FAILURE=1" >> $GITHUB_ENV
+        # echo "CK_FORK=no" >> $GITHUB_ENV
+        # echo "CK_VERBOSE=verbose"  >> $GITHUB_ENV
+        export $LIBRARY_PATH
+
+    - name: Test LD_LIBRARY_PATH and check install directory
+      run: (echo $LD_LIBRARY_PATH; cd ~/.local/libcheck; ls -alrt) 
+
+    - name: Cache Check Library
+      id: cache-libcheck
+      uses: actions/cache@v3
+      with: 
+        path: | 
+          ~/.local/libcheck/lib
+          ~/.local/libcheck/include
+        key: ${{ runner.os }}-libcheck-0.15.2
+
+    - name: Install check
+      if: steps.cache-libcheck.outputs.cache-hit != 'true'
+      run: (cd /tmp; curl -L https://github.com/libcheck/check/releases/download/0.15.2/check-0.15.2.tar.gz --output check-0.15.2.tar.gz; tar xzvf check-0.15.2.tar.gz; cd check-0.15.2;     ./configure --prefix=$HOME/.local/libcheck; make; make check; sudo make install)
+
+    - name: Set Environment Variables
+      run: . ./set_env.sh 
+    
+    - name: Build C Code 
+      run: . ./build.sh
+
+      #- name: Setup tmate session
+      #if: ${{ failure() }}
+      #uses: mxschmitt/action-tmate@v3      
+
+    - name: Build REST Project
+      run: | 
+        (cd ./powertwin-rest; ./gradlew bootJar; ls -alrt ./libraries; ls -alrt ./build/libs)
+      env:
+        PKG_ACTOR: ${{ secrets.PKG_ACTOR }}
+        PKG_TOKEN: ${{ secrets.PKG_TOKEN }}
+
+    - name: Upload calc artifacts
+      uses: actions/upload-artifact@v4
+      with: 
+        name: c-libs
+        path: powertwin-rest/libraries
+
+    - name: Upload REST Artifacts
+      uses: actions/upload-artifact@v4
+      with: 
+        name: rest-lib 
+        path: powertwin-rest/build/libs/powertwin-rest-0.0.1-SNAPSHOT.jar
+
+    - name: Rename Json-C Lib
+      run: (cp powertwin-c/json-c-bin/lib64/libjson-c.so.5.1.0 powertwin-c/libjson-c.so.5)
+
+    - name: Upload Json-C Artifact
+      uses: actions/upload-artifact@v4
+      with: 
+        name: json-c-lib 
+        path: powertwin-c/libjson-c.so.5
+
+  deploy-dockerhub:
+    if: github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest  
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+    
+    - name: Download Calc Artifacts
+      uses: actions/download-artifact@v4
+      with:
+        name: c-libs
+        path: powertwin-rest/libraries/
+      
+    - name: Download REST Artifacts
+      uses: actions/download-artifact@v4
+      with:
+        name: rest-lib
+        path: powertwin-rest/build/libs/
+
+    - name: Download Json-C Artifact
+      uses: actions/download-artifact@v4
+      with:
+        name: json-c-lib
+        path: powertwin-rest/libraries/
+
+    - name: Make sure the libs are there
+      run: (cd powertwin-rest/build/libs; ls -alrt)
+
+    - name: Login to Docker Hub
+      uses: docker/login-action@v1
+      with:
+        username: ${{ secrets.DOCKER_HUB_USERNAME }}
+        password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
+    
+    - name: Set up Docker build
+      uses: docker/setup-buildx-action@v3
+
+    - name: Build and push
+      uses: docker/build-push-action@v6
+      with: 
+        context: ./
+        file: ./Dockerfile
+        push: true
+        tags: ${{ secrets.DOCKER_HUB_USERNAME }}/gears:latest
+        build-args: |
+            pkg_actor=${{ secrets.PKG_ACTOR }}
+            pkg_token=${{ secrets.PKG_TOKEN }}
+    
+#  deploy-heroku:
+#    if: github.ref == 'refs/heads/main'
+#    needs: build
+#    runs-on: ubuntu-latest
+#
+#    steps:
+#      - name: Checkout
+#        uses: actions/checkout@v3
+#
+#      - name: Show current directory
+#        run: pwd
+#
+#      - name: Download Calc Artifacts
+#        uses: actions/download-artifact@v3
+#        with:
+#          name: c-libs
+#          path: powertwin-rest/lib/
+#
+#      - name: Download REST Artifacts
+#        uses: actions/download-artifact@v3
+#        with:
+#          name: rest-lib
+#          path: powertwin-rest/build/libs/
+#
+#      - name: Download Json-C Artifact
+#        uses: actions/download-artifact@v3
+#        with:
+#          name: json-c-lib
+#          path: powertwin-rest/lib/
+#
+#      - name: Make sure the libs are there
+#        run: (cd powertwin-rest/build/libs; ls -alrt)
+#
+#      - name: Make sure the libs are there
+#        run: (cd powertwin-rest/lib; ls -alrt)
+#
+#      - name: Deploy Container to Heroku
+#        uses: gonuit/heroku-docker-deploy@v1.3.3
+#        with:
+#          email: ${{ secrets.HEROKU_EMAIL }}
+#          heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
+#          heroku_app_name: ${{ secrets.HEROKU_APP_NAME }}
+#          dockerfile_directory: ./
+#          dockerfile_name: Dockerfile
+#          process_type: web
