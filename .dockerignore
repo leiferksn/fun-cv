@@ -1,0 +1,7 @@
+.env
+.git/
+.workflows/
+*.md
+
+*.pem
+*.key

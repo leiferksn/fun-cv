@@ -1,1 +1,4 @@
 *.html
+*.crt
+*.key
+.env
