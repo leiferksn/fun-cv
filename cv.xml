@@ -51,11 +51,39 @@
                 <task> - DevOps and cloud operations</task>
                 <task> - Implementation of a tool for the creation of profit and loss tables</task>
             </tasks>
+            <technologies>
+                <technology type="LANGUAGE" version="17">Java</technology>
+                <technology type="FRAMEWORK" version="3.3">Spring Boot</technology>
+                <technology type="FRAMEWORK" version="5.1">Spring Batch</technology>
+                <technology type="DATABASE" version="13.x">PostgreSQL</technology>
+                <technology type="BUILD" version="8.x">Gradle</technology>
+                <technology type="CI/CD">GitHub Actions</technology>
+                <technology type="TEST">TestContainers</technology>
+                <technology type="TEST" version="5.x">JUnit</technology>
+                <technology type="OPERATION">Docker</technology>
+                <technology type="OPERATION">Docker Compose</technology>
+                <technology type="OPERATION">Openshift</technology>
+                <technology type="OPERATION">K8s</technology>
+            </technologies>
         </job>
         <job atCompany="Stealth Startup" onPosition="Software Engineer/Architect" from="04.2022" to="03.2024">
             <tasks>
                 <task>Design and implementation of REST API for calculation of gear geometry based on Spring Boot. Application architecture and implementation,database design, implementation of CI pipeline, test design and implementation. Design and implementation of frontend microservice for visualization of gear geometry calculation results.</task>
             </tasks>
+            <technologies>
+                <technology type="LANGUAGE" version="17">Java</technology>
+                <technology type="FRAMEWORK" version="3.3">Spring Boot</technology>
+                <technology type="FRAMEWORK" version="5.1">Spring Batch</technology>
+                <technology type="DATABASE" version="13.x">PostgreSQL</technology>
+                <technology type="BUILD" version="8.x">Gradle</technology>
+                <technology type="CI/CD">GitHub Actions</technology>
+                <technology type="TEST">TestContainers</technology>
+                <technology type="TEST" version="5.x">JUnit</technology>
+                <technology type="OPERATION">Docker</technology>
+                <technology type="OPERATION">Docker Compose</technology>
+                <technology type="OPERATION">Openshift</technology>
+                <technology type="OPERATION">K8s</technology>
+            </technologies>
         </job>
     </jobs>
 
