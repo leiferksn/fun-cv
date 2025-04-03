@@ -15,8 +15,6 @@ ARG root_path
 
 ENV ROOT_PATH=${root_path}
 
-RUN echo $ROOT_PATH
-
 COPY --from=build /app/index.html $ROOT_PATH 
 COPY --from=build /nginx.template /etc/nginx/nginx.template
 
