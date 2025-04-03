@@ -41,7 +41,7 @@ jobs:
         path: index.html
 
     - name: Make sure the index.html exists 
-      run: (cd .; ls -alrt; cat index.html)
+      run: (cd .; ls -alrt; cat index.html;)
 
       
     - name: Login to Docker Hub
