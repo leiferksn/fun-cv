@@ -23,7 +23,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with: 
         name: index-file
-        path: ./indexi.html
+        path: ./index.html
     
   deploy-dockerhub:
     if: github.ref == 'refs/heads/main'
