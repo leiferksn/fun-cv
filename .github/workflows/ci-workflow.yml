@@ -37,7 +37,7 @@ jobs:
     - name: Download index file 
       uses: actions/download-artifact@v4
       with:
-        name: index-html
+        name: index-file
         path: ./
 
     - name: Make sure the index.html exists 
