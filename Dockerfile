@@ -11,10 +11,9 @@ RUN chmod +x /app/entrypoint.sh
 # Serve Application using Nginx Server
 FROM nginx:alpine
 
-ARG SSL_CERT
-ARG SSL_KEY
+ARG ROOT_PATH
 
-COPY --from=build /app/index.html /usr/share/nginx/html
+COPY --from=build /app/index.html ${ROOT_PATH} 
 COPY --from=build /nginx.template /etc/nginx/nginx.template
 
 COPY --from=build /app/entrypoint.sh /entrypoint.sh
@@ -22,9 +21,6 @@ COPY --from=build /app/entrypoint.sh /entrypoint.sh
 RUN ls -l /entrypoint.sh \ 
 	&& chmod +x /entrypoint.sh
 
-
-ENV SSL_CERT=${SSL_CERT}
-ENV SSL_KEY=${SSL_KEY}
 
 EXPOSE 80 443
 ENTRYPOINT ["/entrypoint.sh"]
