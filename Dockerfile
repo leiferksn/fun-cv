@@ -11,9 +11,9 @@ RUN chmod +x /app/entrypoint.sh
 # Serve Application using Nginx Server
 FROM nginx:alpine
 
-ARG ROOT_PATH
+ARG root_path 
 
-ENV ROOT_PATH=${ROOT_PATH}
+ENV ROOT_PATH=${root_path}
 
 RUN echo $ROOT_PATH
 
