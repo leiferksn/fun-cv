@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <?xml-stylesheet type="text/xsl" href="cv.xsl"?>
+<cv>
+    <styling>
+        <text-color>#000000</text-color>
+        <background-color>#188977</background-color>
+        <job-details-text-color>#188977</job-details-text-color>
+        <title-text-color>#000000</title-text-color>
+        <name-text-color>#188977</name-text-color>
+        <email-link-color>#188977</email-link-color>
+        <line-color>#188977</line-color>
+
+    </styling>
+    <content>
+        <title>
+            Vesselin Beltchev - Independent Software Engineer
+        </title>
+    <intro name="Vesselin Beltchev" title="Software Engineer">
+        <paragraph> Experienced Software Engineer with a passion for simply-built powerful applications. Well-versed in backend technologies and in writing clean and concise code. Learned through practice and figuring out solutions to problems by being thrown in at the deep end. My choice of programming language is Java. I’ve worked with various other programming languages, more recently in my spare time projects with C, Python and C++.</paragraph>
+        <paragraph>I’m interested in the cause for a problem and I always try to understand the causes and the effects in a system. While designing a system I follow the contract first approach. When implementing I often start from the test and work my way to the final solution in an incremental way. Single responsibility principle is something I firmly believe in. It had proven crucial for the quality of a product many times in my work.</paragraph>
+    </intro>
+    <contact phone="+49 179 776 95 22" email="vesselin.beltchev @bouncystream.tech" mailto="vesselin.beltchev@bouncystream.tech">
+    </contact>
+    <photo src="https://www.bouncystream.tech/en/vesselin-beltchev.jpeg">
+    </photo>
+    <jobs>
+        <job atCompany="Etribes Connect GmbH" onPosition="Freelance Software Developer" from="10.2024" to="10.2024">
+            <tasks>
+                <task>Design and implementation of an ETL pipeline that extracts leads from a relational database, enriches them and sends them to Insider Newsletter API.</task>
+            </tasks>
+            <technologies>
+                <technology type="LANGUAGE" version="17">Java</technology>
+                <technology type="FRAMEWORK" version="3.3">Spring Boot</technology>
+                <technology type="FRAMEWORK" version="5.1">Spring Batch</technology>
+                <technology type="DATABASE" version="13.x">PostgreSQL</technology>
+                <technology type="BUILD" version="8.x">Gradle</technology>
+                <technology type="CI/CD">GitHub Actions</technology>
+                <technology type="TEST">TestContainers</technology>
+                <technology type="TEST" version="5.x">JUnit</technology>
+                <technology type="OPERATION">Docker</technology>
+                <technology type="OPERATION">Docker Compose</technology>
+                <technology type="OPERATION">Openshift</technology>
+                <technology type="OPERATION">K8s</technology>
+            </technologies>
+        </job>
+        <job atCompany="Stealth Startup" onPosition="CTO &#038; Co-founder" from="04.2024" to="now">
+            <tasks>
+                <task>Co-founder of a start-up developing a collaborative SaaS platform that offers cost-optimized full-system simulation of drives for SMEs and independent engineers.</task>
+                <task> - Creation of the overall architecture of the platform</task>
+                <task> - Design, implementation and release of an MVP</task>
+                <task> - DevOps and cloud operations</task>
+                <task> - Implementation of a tool for the creation of profit and loss tables</task>
+            </tasks>
+        </job>
+        <job atCompany="Stealth Startup" onPosition="Software Engineer/Architect" from="04.2022" to="03.2024">
+            <tasks>
+                <task>Design and implementation of REST API for calculation of gear geometry based on Spring Boot. Application architecture and implementation,database design, implementation of CI pipeline, test design and implementation. Design and implementation of frontend microservice for visualization of gear geometry calculation results.</task>
+            </tasks>
+        </job>
+    </jobs>
+
+    </content>
+
+</cv>
