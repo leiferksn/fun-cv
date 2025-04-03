@@ -15,8 +15,8 @@
             Vesselin Beltchev - Independent Software Engineer
         </title>
     <intro name="Vesselin Beltchev" title="Software Engineer">
-        <paragraph> Experienced Software Engineer with a passion for simply-built powerful applications. Well-versed in backend technologies and in writing clean and concise code. Learned through practice and figuring out solutions to problems by being thrown in at the deep end. My choice of programming language is Java. I’ve worked with various other programming languages, more recently in my spare time projects with C, Python and C++.</paragraph>
-        <paragraph>I’m interested in the cause for a problem and I always try to understand the causes and the effects in a system. While designing a system I follow the contract first approach. When implementing I often start from the test and work my way to the final solution in an incremental way. Single responsibility principle is something I firmly believe in. It had proven crucial for the quality of a product many times in my work.</paragraph>
+        <paragraph>Experienced Software Engineer with a passion for creating sleek, powerful applications. Turning complexity into simplicity with elegant code is my ultimate goal. I'm in my element, when I build a backend system, but I do not run away from exciting tasks in any other area. That often got me poking my nose into frontend and DevOps. Successully, I might add. Writing clean and concise code is my OCD. I don't shy away from deep and muddy waters. In fact, that's how my path to where I am now has been. My weapon of choice is Java. Some say it's slow and heavy, but I say it's solid, sturdy, durable (Remember how Kotlin groupies foretold that Java's end is nigh? HE HE HE.) and it has never let me down. Every now and then, mostly but not exclusively in my spare time, I’ve also dabbed in C, Python and C++, Kotlin and lately also Go (I like).</paragraph>
+        <paragraph>What's causing a problem bothers me. I always dig to find out what started it and how it effects the whole. Negotiating terms between two software parts is where I start. Remember what Linus Torvalds? Never break user-space. A contract is a bond. Turning requirments into tests and checking a solution against them, goes a long way. I have a deep, possibly unhealthy belief in the Single Responsibility Principle. Seriously, I’ve seen it save projects from turning into chaotic spaghetti code disasters.</paragraph>
     </intro>
     <contact phone="+49 179 776 95 22" email="vesselin.beltchev @bouncystream.tech" mailto="vesselin.beltchev@bouncystream.tech">
     </contact>
@@ -28,7 +28,7 @@
                 <task>Design and implementation of an ETL pipeline that extracts leads from a relational database, enriches them and sends them to Insider Newsletter API.</task>
             </tasks>
             <technologies>
-                <technology type="LANGUAGE" version="17">Java</technology>
+                <technology type="LANGUAGE" version="17">Java</technology>я
                 <technology type="FRAMEWORK" version="3.3">Spring Boot</technology>
                 <technology type="FRAMEWORK" version="5.1">Spring Batch</technology>
                 <technology type="DATABASE" version="13.x">PostgreSQL</technology>
