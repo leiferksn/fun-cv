@@ -72,6 +72,7 @@
                 <technology type="OPERATION">Openshift</technology>
                 <technology type="OPERATION">K8s</technology>
                 <technology type="SPA">Angular2</technology>
+                <technology type="AUTH">JWT</technology>
             </technologies>
         </job>
         <job atCompany="BMW AG/Doubleslash GmbH" onPosition="Freelance Software Engineer" from="11.2022" to="07.2023">
@@ -128,6 +129,28 @@
                 <technology type="MONITORING">Grafana</technology>
                 <technology type="PROCESS">Scrum/SAFe</technology>
                 <technology type="SPA">Angular2</technology>
+            </technologies>
+        </job>
+        <job atCompany="FinAPI GmbH" onPosition="Senior Software Engineer" from="02.2020" to="03.2022">
+            <tasks>
+                <task>As part of a team of 5, I was building a distributed REST API for finance status evaluation (Digital Account Check) of end customers. In my role I was involved in all phases of the development. More specifically, my tasks were in architecture, setting up projects, implementation and corereviews.</task>
+            </tasks>
+            <technologies>
+                <technology type="LANGUAGE" version="11">Java</technology>
+                <technology type="FRAMEWORK" version="3.3">Spring Boot</technology>
+                <technology type="API">REST</technology>
+                <technology type="DATABASE">PostgreSQL</technology>
+                <technology type="ORM">Hibernate</technology>
+                <technology type="DATABASE CHANGE MANAGEMENT">Liquibase</technology>
+                <technology type="BUILD">Gradle</technology>
+                <technology type="TEST">TestContainers</technology>
+                <technology type="TEST">Cucumber</technology>
+                <technology type="TEST">Pact</technology>
+                <technology type="OPERATION">Docker</technology>
+                <technology type="OPERATION">Docker Compose</technology>
+                <technology type="PROCESS">Scrum</technology>
+                <technology type="AUTH">OAuth2</technology>
+                <technology type="AUTH">JWT</technology>
             </technologies>
         </job>
     </jobs>
