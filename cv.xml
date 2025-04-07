@@ -32,6 +32,7 @@
                 <technology type="FRAMEWORK" version="3.3">Spring Boot</technology>
                 <technology type="FRAMEWORK" version="5.1">Spring Batch</technology>
                 <technology type="DATABASE" version="13.x">PostgreSQL</technology>
+                <technology type="API">REST/Open API</technology>
                 <technology type="BUILD" version="8.x">Gradle</technology>
                 <technology type="CI/CD">GitHub Actions</technology>
                 <technology type="TEST">TestContainers</technology>
@@ -50,20 +51,6 @@
                 <task> - DevOps and cloud operations</task>
                 <task> - Implementation of a tool for the creation of profit and loss tables</task>
             </tasks>
-            <technologies>
-                <technology type="LANGUAGE" version="17">Java</technology>
-                <technology type="FRAMEWORK" version="3.3">Spring Boot</technology>
-                <technology type="FRAMEWORK" version="5.1">Spring Batch</technology>
-                <technology type="DATABASE" version="13.x">PostgreSQL</technology>
-                <technology type="BUILD" version="8.x">Gradle</technology>
-                <technology type="CI/CD">GitHub Actions</technology>
-                <technology type="TEST">TestContainers</technology>
-                <technology type="TEST" version="5.x">JUnit</technology>
-                <technology type="OPERATION">Docker</technology>
-                <technology type="OPERATION">Docker Compose</technology>
-                <technology type="OPERATION">Openshift</technology>
-                <technology type="OPERATION">K8s</technology>
-            </technologies>
         </job>
         <job atCompany="Stealth Startup" onPosition="Software Engineer/Architect" from="04.2022" to="03.2024">
             <tasks>
@@ -74,6 +61,8 @@
                 <technology type="FRAMEWORK" version="3.3">Spring Boot</technology>
                 <technology type="FRAMEWORK" version="5.1">Spring Batch</technology>
                 <technology type="DATABASE" version="13.x">PostgreSQL</technology>
+                <technology type="DATABASE CHANGE MANAGEMENT">Liquibase</technology>
+                <technology type="API">REST/Open API</technology>
                 <technology type="BUILD" version="8.x">Gradle</technology>
                 <technology type="CI/CD">GitHub Actions</technology>
                 <technology type="TEST">TestContainers</technology>
@@ -82,6 +71,63 @@
                 <technology type="OPERATION">Docker Compose</technology>
                 <technology type="OPERATION">Openshift</technology>
                 <technology type="OPERATION">K8s</technology>
+                <technology type="SPA">Angular2</technology>
+            </technologies>
+        </job>
+        <job atCompany="BMW AG/Doubleslash GmbH" onPosition="Freelance Software Engineer" from="11.2022" to="07.2023">
+            <tasks>
+                <task>Migration of Connected Drive Backend Systems to AWS for BMW AG. Maintenance and implementation of new features.</task>
+            </tasks>
+            <technologies>
+                <technology type="LANGUAGE" version="11">Java</technology>
+                <technology type="FRAMEWORK">Payara Micro</technology>
+                <technology type="API">REST/Open API</technology>
+                <technology type="WEBSERVICES">SOAP</technology>
+                <technology type="DATABASE" version="14.x">PostgreSQL</technology>
+                <technology type="ORM">Hibernate</technology>
+                <technology type="DATABASE CHANGE MANAGEMENT"> Flyway</technology>
+                <technology type="BUILD">Maven</technology>
+                <technology type="CI/CD">Jenkins</technology>
+                <technology type="DEPLOYMENT AUTOMATION">Kustomize</technology>
+                <technology type="DEPLOYMENT AUTOMATION">Jinja</technology>
+                <technology type="DEPLOYMENT AUTOMATION">Terraform</technology>
+                <technology type="TEST">SpringBootTest</technology>
+                <technology type="TEST">Citrus</technology>
+                <technology type="MESSAGING">SQS/SNS</technology>
+                <technology type="OPERATION">Docker</technology>
+                <technology type="OPERATION">Kubernetes</technology>
+                <technology type="OPERATION">Openshift</technology>
+                <technology type="OPERATION">AWS</technology>
+                <technology type="MONITORING">Prometheus</technology>
+                <technology type="MONITORING">Grafana</technology>
+                <technology type="PROCESS">Scrum/SAFe</technology>
+            </technologies>
+        </job>
+        <job atCompany="Bundesagentur für Arbeit/Sidion GmbH" onPosition="Freelance Software Engineer" from="11.2022" to="07.2023">
+            <tasks>
+                <task>Developing a request system based on microservices in an agile environment for the Bundesagntur für Arbeit.</task>
+            </tasks>
+            <technologies>
+                <technology type="LANGUAGE" version="11">Java</technology>
+                <technology type="FRAMEWORK" version="3.3">Spring Boot</technology>
+                <technology type="API">REST</technology>
+                <technology type="WEBSERVICES">SOAP</technology>
+                <technology type="DATABASE">Oracle</technology>
+                <technology type="DATABASE">S3</technology>
+                <technology type="ORM">Hibernate</technology>
+                <technology type="DATABASE CHANGE MANAGEMENT">Liquibase</technology>
+                <technology type="BUILD">Maven</technology>
+                <technology type="CI/CD">Jenkins</technology>
+                <technology type="TEST">SpringBootTest</technology>
+                <technology type="TEST">Citrus</technology>
+                <technology type="MESSAGING">SQS/SNS</technology>
+                <technology type="OPERATION">Docker</technology>
+                <technology type="OPERATION">Kubernetes</technology>
+                <technology type="OPERATION">Rancher</technology>
+                <technology type="MONITORING">Prometheus</technology>
+                <technology type="MONITORING">Grafana</technology>
+                <technology type="PROCESS">Scrum/SAFe</technology>
+                <technology type="SPA">Angular2</technology>
             </technologies>
         </job>
     </jobs>
