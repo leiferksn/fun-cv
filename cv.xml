@@ -39,7 +39,7 @@
                 <technology type="TEST" version="5.x">JUnit</technology>
                 <technology type="OPERATION">Docker</technology>
                 <technology type="OPERATION">Docker Compose</technology>
-                <technology type="OPERATION">Openshift</technology>
+                <technology type="OPERATION">OpenShift</technology>
                 <technology type="OPERATION">K8s</technology>
                 <technology type="VERSION CONTROL">GIT</technology>
             </technologies>
@@ -70,7 +70,7 @@
                 <technology type="TEST" version="5.x">JUnit</technology>
                 <technology type="OPERATION">Docker</technology>
                 <technology type="OPERATION">Docker Compose</technology>
-                <technology type="OPERATION">Openshift</technology>
+                <technology type="OPERATION">OpenShift</technology>
                 <technology type="OPERATION">K8s</technology>
                 <technology type="SPA">Angular2</technology>
                 <technology type="AUTH">JWT</technology>
@@ -100,7 +100,7 @@
                 <technology type="MESSAGING">SQS/SNS</technology>
                 <technology type="OPERATION">Docker</technology>
                 <technology type="OPERATION">Kubernetes</technology>
-                <technology type="OPERATION">Openshift</technology>
+                <technology type="OPERATION">OpenShift</technology>
                 <technology type="OPERATION">AWS</technology>
                 <technology type="MONITORING">Prometheus</technology>
                 <technology type="MONITORING">Grafana</technology>
