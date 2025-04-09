@@ -84,11 +84,11 @@
       text-decoration:underline;
     }
 
-    .jobs {
+    .jobs, .edu {
       width: 100%;
     }
 
-    .jobDetails {
+    .jobDetails, .school {
       font-style: italic;
       font-weight: 600;
       color: <xsl:value-of select="cv/styling/job-details-text-color"/>;
@@ -106,7 +106,7 @@
       color: <xsl:value-of select="cv/styling/name-text-color"/>;
     }
 
-    .xperience {
+    .xperience, .education {
       font-style: italic;
       font-weight: 600;
     }
@@ -170,6 +170,17 @@
                   </p>
 
                 </xsl:for-each>
+              </xsl:for-each>
+            </div>
+
+            <div class="edu">
+            <h2 class="education">Education</h2>
+
+            <xsl:for-each select="cv/content/education/school">
+
+                <p class="school"><xsl:value-of select="./@from"/> - <xsl:value-of select="./@to"/>, <xsl:value-of select="."/></p>
+                <p><xsl:value-of select="./@degree"/>, <xsl:value-of select="./@fieldOfStudy"/></p>
+
               </xsl:for-each>
             </div>
           </div>

@@ -240,6 +240,11 @@
             </technologies>
         </job>
     </jobs>
+    <education>
+        <school fieldOfStudy="Mechanical Engineering" degree="MSc" from="04.2006" to="03.2008">TU Munich</school>
+        <school fieldOfStudy="Mechanical Engineering" degree="BSc" from="10.2002" to="04.2006">TU Munich</school>
+        <school fieldOfStudy="Mechanical Engineering" degree="Intermediate diploma" from="09.1998" to="09.2002">TU Sofia</school>
+    </education>
 
     </content>
 
