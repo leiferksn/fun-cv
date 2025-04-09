@@ -167,7 +167,7 @@
             <technologies>
                 <technology type="LANGUAGES" version="11">Java</technology>
                 <technology type="FRAMEWORKS">Spring Boot</technology>
-                <technology type="TEMPLATE ENGINE">JSP</technology>
+                <technology type=" TEMPLATE ENGINES">JSP</technology>
                 <technology type="HTTP ACCELERATOR">Varnish</technology>
                 <technology type="APIs">REST</technology>
                 <technology type="DATABASES">MySQL</technology>
@@ -205,7 +205,7 @@
                 <technology type="FRAMEWORKS">J2EE</technology>
                 <technology type="FRAMEWORKS">Glassfish</technology>
                 <technology type="FRAMEWORKS">JSF</technology>
-                <technology type="TEMPLATE ENGINE">JSP</technology>
+                <technology type=" TEMPLATE ENGINES">JSP</technology>
                 <technology type="APIs">REST</technology>
                 <technology type="APIs">SOAP</technology>
                 <technology type="APIs">Java RPC</technology>
