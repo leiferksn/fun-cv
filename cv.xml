@@ -23,16 +23,16 @@
     <photo src="https://www.bouncystream.tech/en/vesselin-beltchev.jpeg">
     </photo>
     <jobs>
-        <job atCompany="Etribes Connect GmbH" onPosition="Freelance Software Developer" from="10.2024" to="10.2024">
+        <job atCompany="Hays AG/Etribes Connect GmbH/gesund.de" onPosition="Freelance Software Developer" from="10.2024" to="10.2024">
             <tasks>
-                <task>Design and implementation of an ETL pipeline that extracts leads from a relational database, enriches them and sends them to Insider Newsletter API.</task>
+                <task>My task was to come up with a way to read data from the client's relation database containing mostly leads, enrich the data and pass it on to a REST API of a newsletter systen called Insider. This enabled the end client to run newsletter campaign for their users. I came up with a concept, implemented it and deployed it on OpenShift.</task>
             </tasks>
             <technologies>
-                <technology type="LANGUAGE" version="17">Java</technology>я
-                <technology type="FRAMEWORK" version="3.3">Spring Boot</technology>
-                <technology type="FRAMEWORK" version="5.1">Spring Batch</technology>
-                <technology type="DATABASE" version="13.x">PostgreSQL</technology>
-                <technology type="API">REST/Open API</technology>
+                <technology type="LANGUAGES" version="17">Java</technology>я
+                <technology type="FRAMEWORKS" version="3.3">Spring Boot</technology>
+                <technology type="FRAMEWORKS" version="5.1">Spring Batch</technology>
+                <technology type="DATABASES" version="13.x">PostgreSQL</technology>
+                <technology type="APIs">REST/OpenAPI</technology>
                 <technology type="BUILD" version="8.x">Gradle</technology>
                 <technology type="CI/CD">GitHub Actions</technology>
                 <technology type="TEST">TestContainers</technology>
@@ -41,28 +41,29 @@
                 <technology type="OPERATION">Docker Compose</technology>
                 <technology type="OPERATION">Openshift</technology>
                 <technology type="OPERATION">K8s</technology>
+                <technology type="VERSION CONTROL">GIT</technology>
             </technologies>
         </job>
         <job atCompany="Stealth Startup" onPosition="CTO &#038; Co-founder" from="04.2024" to="now">
             <tasks>
-                <task>Co-founder of a start-up developing a collaborative SaaS platform that offers cost-optimized full-system simulation of drives for SMEs and independent engineers.</task>
+                <task>Co-founder of a start-up aiming to make engineers professional lives' easier and engineering SMEs more competitive by providing them with a software system for full-system simulation of drives. We'll drastically reduce the amount of money the companies burn by offering flexible licensing and guaranteeng a single source of truth for both their physical and simulation models. In a start-up you do everything, they say. So here's a short list of the things I've been doing:</task>
                 <task> - Creation of the overall architecture of the platform</task>
-                <task> - Design, implementation and release of an MVP</task>
-                <task> - DevOps and cloud operations</task>
-                <task> - Implementation of a tool for the creation of profit and loss tables</task>
+                <task> - Design, implementation and release of an MVP. It involved both backend and frontend services</task>
+                <task> - Running DevOps and cloud operations while keeping eye on the costs.</task>
+                <task> - Creating and implementing a lot of things I didn't know we would need before we started, such as a tool for calculating profits and losses, a revenue model with which we can run projections and of course numerous versions of pitchdecks and visualizations.</task>
             </tasks>
         </job>
         <job atCompany="Stealth Startup" onPosition="Software Engineer/Architect" from="04.2022" to="03.2024">
             <tasks>
-                <task>Design and implementation of REST API for calculation of gear geometry based on Spring Boot. Application architecture and implementation,database design, implementation of CI pipeline, test design and implementation. Design and implementation of frontend microservice for visualization of gear geometry calculation results.</task>
+                <task>Before we officially founded the company we've built a couple of prototypes that eventually evolved to a REST API for a calculation of a gear geometry based on Spring Boot. Since in a start-up you do everything I had a lot of fun in outlining the application's architecture, implementing the REST API, designing the database, setting up the CI/CD pipeline, designing and implementing the E2E tests, integrating the simulation login into the application, designing and implementing a simple frontend microservice for visualization of gear geometry calculation results.</task>
             </tasks>
             <technologies>
-                <technology type="LANGUAGE" version="17">Java</technology>
-                <technology type="FRAMEWORK" version="3.3">Spring Boot</technology>
-                <technology type="FRAMEWORK" version="5.1">Spring Batch</technology>
-                <technology type="DATABASE" version="13.x">PostgreSQL</technology>
+                <technology type="LANGUAGES" version="17">Java</technology>
+                <technology type="FRAMEWORKS" version="3.3">Spring Boot</technology>
+                <technology type="FRAMEWORKS" version="5.1">Spring Batch</technology>
+                <technology type="DATABASESS" version="13.x">PostgreSQL</technology>
                 <technology type="DATABASE CHANGE MANAGEMENT">Liquibase</technology>
-                <technology type="API">REST/Open API</technology>
+                <technology type="APIs">REST/OpenAPI</technology>
                 <technology type="BUILD" version="8.x">Gradle</technology>
                 <technology type="CI/CD">GitHub Actions</technology>
                 <technology type="TEST">TestContainers</technology>
@@ -73,19 +74,21 @@
                 <technology type="OPERATION">K8s</technology>
                 <technology type="SPA">Angular2</technology>
                 <technology type="AUTH">JWT</technology>
+                <technology type="VERSION CONTROL">GIT</technology>
             </technologies>
         </job>
         <job atCompany="BMW AG/Doubleslash GmbH" onPosition="Freelance Software Engineer" from="11.2022" to="07.2023">
             <tasks>
-                <task>Migration of Connected Drive Backend Systems to AWS for BMW AG. Maintenance and implementation of new features.</task>
+                <task>For this project I slipped into the shoes of a DevOps guy who helps migrating a huge backend system from OpenShift and On-Prem to AWS. Although I've done DevOps tasks in the past, This project's scale was nothing in comparison. It was a very well coordinated and organized project and it was completed to BMW's satisfaction. Apart from supporting the migration effort, I also had to migrate tests and make some changes in the business logic.  Alongside all the valuable experiences I got from this project, to be able to refresh my memories on PL/SQL was an unexpected win for me.</task>
             </tasks>
             <technologies>
-                <technology type="LANGUAGE" version="11">Java</technology>
-                <technology type="FRAMEWORK">Payara Micro</technology>
-                <technology type="API">REST/Open API</technology>
+                <technology type="LANGUAGES" version="11">Java</technology>
+                <technology type="LANGUAGES">PL/SQL</technology>
+                <technology type="FRAMEWORKS">Payara Micro</technology>
+                <technology type="APIs">REST/OpenAPI</technology>
                 <technology type="WEBSERVICES">SOAP</technology>
-                <technology type="DATABASE" version="14.x">PostgreSQL</technology>
-                <technology type="ORM">Hibernate</technology>
+                <technology type="DATABASES" version="14.x">PostgreSQL</technology>
+                <technology type="ORMs">Hibernate</technology>
                 <technology type="DATABASE CHANGE MANAGEMENT"> Flyway</technology>
                 <technology type="BUILD">Maven</technology>
                 <technology type="CI/CD">Jenkins</technology>
@@ -102,20 +105,21 @@
                 <technology type="MONITORING">Prometheus</technology>
                 <technology type="MONITORING">Grafana</technology>
                 <technology type="PROCESS">Scrum/SAFe</technology>
+                <technology type="VERSION CONTROL">GIT</technology>
             </technologies>
         </job>
         <job atCompany="Bundesagentur für Arbeit/Sidion GmbH" onPosition="Freelance Software Engineer" from="11.2022" to="07.2023">
             <tasks>
-                <task>Developing a request system based on microservices in an agile environment for the Bundesagntur für Arbeit.</task>
+                <task>If you have children, you probably know that you are entitled to a child benefit from the state. At least in Germany. Despite what's people telling you about digitalization in Germany, a lot of government services are digital. So is the process of applying for child benefit. In case you are using or you've used the system, you should know that I and the team from Sidion GmbH I worked with are responsible for your hopefully fabulous experience with it.</task>
             </tasks>
             <technologies>
-                <technology type="LANGUAGE" version="11">Java</technology>
-                <technology type="FRAMEWORK" version="3.3">Spring Boot</technology>
-                <technology type="API">REST</technology>
+                <technology type="LANGUAGES" version="11">Java</technology>
+                <technology type="FRAMEWORKS" version="3.3">Spring Boot</technology>
+                <technology type="APIs">REST</technology>
                 <technology type="WEBSERVICES">SOAP</technology>
-                <technology type="DATABASE">Oracle</technology>
-                <technology type="DATABASE">S3</technology>
-                <technology type="ORM">Hibernate</technology>
+                <technology type="DATABASES">Oracle</technology>
+                <technology type="DATABASES">S3</technology>
+                <technology type="ORMs">Hibernate</technology>
                 <technology type="DATABASE CHANGE MANAGEMENT">Liquibase</technology>
                 <technology type="BUILD">Maven</technology>
                 <technology type="CI/CD">Jenkins</technology>
@@ -129,18 +133,19 @@
                 <technology type="MONITORING">Grafana</technology>
                 <technology type="PROCESS">Scrum/SAFe</technology>
                 <technology type="SPA">Angular2</technology>
+                <technology type="VERSION CONTROL">GIT</technology>
             </technologies>
         </job>
-        <job atCompany="FinAPI GmbH" onPosition="Senior Software Engineer" from="02.2020" to="03.2022">
+        <job atCompany="FinAPIs GmbH" onPosition="Senior Software Engineer" from="02.2020" to="03.2022">
             <tasks>
-                <task>As part of a team of 5, I was building a distributed REST API for finance status evaluation (Digital Account Check) of end customers. In my role I was involved in all phases of the development. More specifically, my tasks were in architecture, setting up projects, implementation and corereviews.</task>
+                <task>Online shops are very strict when it comes to letting you buy stuff with people you don't have. So as part of the process of lending you money, they work with banks to check if you can pay your debts, like a good Lannister. At FinAPI we provided them with a tool that works seamlessly and every single one of your expenses are well documented for them to see. Only if you granted them access to this information, of course. My role in a small, but very effective team of 5 developers, was to help design and implement a distributed REST API for the Digital Account Check (DAC). I had the good fortune to be involved in all phases of the development and see the system grow. Some of my additional responsibilities in the project included code reviews and designing and implenting E2E tests.</task>
             </tasks>
             <technologies>
-                <technology type="LANGUAGE" version="11">Java</technology>
-                <technology type="FRAMEWORK" version="3.3">Spring Boot</technology>
-                <technology type="API">REST</technology>
-                <technology type="DATABASE">PostgreSQL</technology>
-                <technology type="ORM">Hibernate</technology>
+                <technology type="LANGUAGES" version="11">Java</technology>
+                <technology type="FRAMEWORKS" version="3.3">Spring Boot</technology>
+                <technology type="APIs">REST</technology>
+                <technology type="DATABASES">PostgreSQL</technology>
+                <technology type="ORMs">Hibernate</technology>
                 <technology type="DATABASE CHANGE MANAGEMENT">Liquibase</technology>
                 <technology type="BUILD">Gradle</technology>
                 <technology type="TEST">TestContainers</technology>
@@ -151,6 +156,87 @@
                 <technology type="PROCESS">Scrum</technology>
                 <technology type="AUTH">OAuth2</technology>
                 <technology type="AUTH">JWT</technology>
+                <technology type="CI/CD">Jenkins</technology>
+                <technology type="VERSION CONTROL">GIT</technology>
+            </technologies>
+        </job>
+        <job atCompany="Ippen Digital GmbH" onPosition="Senior Software Engineer" from="10.2015" to="01.2020">
+            <tasks>
+                <task>There are other content management systems besides Wordpress in the world. Some of them are a lot bigger. Like the one at Ippen Digital GmbH. Designed to serve dozens of different online news papers, it has its own data pipeline for providing content from a bunch of sources. In the beginning my job in the backend team was to maintain the CMS and the pipeline. Shortly after I started the pipeline needed to be replaced with a new one, me and the backend team switched to designing and developing that system. Unlike the old one, which was built on batch architecture, the one was built on real-time streaming architecture using Kafka for exchange of data between services. I was able to experience first hand the pros and cons of both worlds.</task>
+            </tasks>
+            <technologies>
+                <technology type="LANGUAGES" version="11">Java</technology>
+                <technology type="FRAMEWORKS">Spring Boot</technology>
+                <technology type="TEMPLATE ENGINE">JSP</technology>
+                <technology type="HTTP ACCELERATOR">Varnish</technology>
+                <technology type="APIs">REST</technology>
+                <technology type="DATABASES">MySQL</technology>
+                <technology type="DATABASES">Elasticsearch</technology>
+                <technology type="DATABASES">S3</technology>
+                <technology type="ORMs">Hibernate</technology>
+                <technology type="DATABASE CHANGE MANAGEMENT">Liquibase</technology>
+                <technology type="BUILD">Gradle</technology>
+                <technology type="BUILD">Maven</technology>
+                <technology type="CI/CD">GitLab</technology>
+                <technology type="OPERATION">Docker</technology>
+                <technology type="OPERATION">Docker Compose</technology>
+                <technology type="OPERATION">Puppet</technology>
+                <technology type="OPERATION">Vagrant</technology>
+                <technology type="OPERATION">Kubrenetes</technology>
+                <technology type="PROCESS">Kanban</technology>
+                <technology type="MESSAGING">ActiveMQ</technology>
+                <technology type="MESSAGING">RabbitMQ</technology>
+                <technology type="MESSAGING">Kafka</technology>
+                <technology type="AUTH">OAuth2</technology>
+                <technology type="AUTH">NetID</technology>
+                <technology type="VERSION CONTROL">GIT</technology>
+            </technologies>
+        </job>
+        <job atCompany="NTT Data Deutschland GmbH" onPosition="Software Developer" from="10.2008" to="09.2015">
+            <tasks>
+                <task>From today's perspective the work at NTT Data Deutschland GmbH was a whole other universe. The pre-container era. I can remember seeing a presentation about Docker in 2014 and thinking that this sounded like a cool new technology. Before that, we were doing projects the classical way. Developing for and deploying custom applications on application servers like Glassfish and WebLogic and servlet containers like Tomcat for external companies was my job in various project teams at the company. Another part of my responsibilities was maintaining existing systems. More specifically, this included talking to customers, documenting their requirements and transforming them into features by developing mostly in Java and with Java-based frameworks. Our clients were mostly big companies from the automotive and telecommunications industries and governmental institutions.</task>
+            </tasks>
+            <technologies>
+                <technology type="LANGUAGES" version="8">Java</technology>
+                <technology type="LANGUAGES" >Gradle</technology>
+                <technology type="LANGUAGES" >Perl</technology>
+                <technology type="LANGUAGES" >Javascript</technology>
+                <technology type="FRAMEWORKS">Spring</technology>
+                <technology type="FRAMEWORKS">J2EE</technology>
+                <technology type="FRAMEWORKS">Glassfish</technology>
+                <technology type="FRAMEWORKS">JSF</technology>
+                <technology type="TEMPLATE ENGINE">JSP</technology>
+                <technology type="APIs">REST</technology>
+                <technology type="APIs">SOAP</technology>
+                <technology type="APIs">Java RPC</technology>
+                <technology type="DATABASES">MySQL</technology>
+                <technology type="DATABASES">Oracle</technology>
+                <technology type="DATABASES">S3</technology>
+                <technology type="ORMs">Hibernate</technology>
+                <technology type="ORMs">EclipseLink</technology>
+                <technology type="BUILD">Ant</technology>
+                <technology type="BUILD">Gradle</technology>
+                <technology type="BUILD">Maven</technology>
+                <technology type="CI/CD">Hudson/Jenkins</technology>
+                <technology type="OPERATION">Tomact</technology>
+                <technology type="OPERATION">WebLogic</technology>
+                <technology type="OPERATION">Glassfish</technology>
+                <technology type="PROCESS">Scrum</technology>
+                <technology type="PROCESS">Waterfall</technology>
+                <technology type="MESSAGING">ActiveMQ</technology>
+                <technology type="VERSION CONTROL">GIT</technology>
+                <technology type="VERSION CONTROL">SVN</technology>
+                <technology type="VERSION CONTROL">CVS</technology>
+            </technologies>
+        </job>
+        <job atCompany="BMW AG/EVA Fahrzeugtechnik GmbH" onPosition="Senior Software Engineer" from="04.2008" to="10.2008">
+            <tasks>
+                <task>At BMW I was finalizing a software tool for evaluation of future technologies based on physical effects. This was part of my work which I started in my master’s thesis at the Department of Product Development (TU Munich).</task>
+            </tasks>
+            <technologies>
+                <technology type="LANGUAGES" version="6">Java</technology>
+                <technology type="DATABASES">Oracle</technology>
+                <technology type="OPERATION">WebLogic</technology>
             </technologies>
         </job>
     </jobs>
