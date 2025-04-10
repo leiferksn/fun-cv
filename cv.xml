@@ -61,6 +61,7 @@
             <technologies>
                 <technology type="LANGUAGES" version="17">Java</technology>
                 <technology type="FRAMEWORKS" version="3.3">Spring Boot</technology>
+                <technology type="LIBRARIES">JNA</technology>
                 <technology type="DATABASESS" version="13.x">PostgreSQL</technology>
                 <technology type="DATABASE CHANGE MANAGEMENT">Liquibase</technology>
                 <technology type="APIs">REST/OpenAPI</technology>
