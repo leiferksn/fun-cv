@@ -79,7 +79,7 @@
         </job>
         <job atCompany="BMW AG/Doubleslash GmbH" onPosition="Freelance Software Engineer" from="11.2022" to="07.2023">
             <tasks>
-                <task>In this project for BMW I slipped into the shoes of a DevOps guy who helps to migrate a big backend system from OpenShift and On-Prem to AWS. Although I've done DevOps tasks in the past, they were minor in comparison to his project's scale. It was a very well coordinated and organized project, and it was completed successfully to the client's satisfaction. Apart from supporting the migration effort, I also had to migrate tests and make ongoing changes in the business logic. Alongside all the valuable experiences I got from this project, being able to refresh my memories on PL/SQL was an unexpected win for me.</task>
+                <task>At BMW I slipped into the shoes of a DevOps guy who helps to migrate a big backend system from OpenShift and On-Prem to AWS. Although I've done DevOps tasks in the past, they were minor in comparison to his project's scale. It was a very well coordinated and organized project, and it was completed successfully to the client's satisfaction. Apart from supporting the migration effort, I also had to migrate tests and make ongoing changes in the business logic. Alongside all the valuable experiences I got from this project, being able to refresh my memories on PL/SQL was an unexpected win for me.</task>
             </tasks>
             <technologies>
                 <technology type="LANGUAGES" version="11">Java</technology>
