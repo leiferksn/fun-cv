@@ -110,7 +110,7 @@
         </job>
         <job atCompany="Bundesagentur für Arbeit/Sidion GmbH" onPosition="Freelance Software Engineer" from="11.2022" to="07.2023">
             <tasks>
-                <task>In this project for the German Federal Employment Agency, my job together with a small team of developers was to create the new agency's child benefit application system. Staff changes during the project required that I take on the lead developer's role in the project, giving me the opportunity to make design decisions and contribute to the development of the frontend service. I was responisble mainly for the backend service and the implementation of connectivities to external APIs.</task>
+                <task>In this project for the German Federal Employment Agency, my job together with a small team of developers was to create the new agency's child benefit application system. Staff changes during the project required that I take on the lead developer's role in the project, giving me the opportunity to make design decisions and contribute to the development of the frontend service apart in addition to being responisble for the backend service and the implementation of connectivities to external APIs.</task>
             </tasks>
             <technologies>
                 <technology type="LANGUAGES" version="11">Java</technology>
