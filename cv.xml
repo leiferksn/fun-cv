@@ -23,7 +23,7 @@
     <photo src="https://www.bouncystream.tech/en/vesselin-beltchev.jpeg">
     </photo>
     <jobs>
-        <job atCompany="Ippen Digital GmbH/Thryve Talent Ltd." onPoisition="Senior Java Developer (Freelance)" from="04.2025" to="now">
+        <job atCompany="Ippen Digital GmbH/Thryve Talent Ltd." onPosition="Senior Java Developer (Freelance)" from="04.2025" to="now">
             <tasks>
                 <task>Designed and implemented a Warm-Hot Server architecture using EKS-Anywhere, enabling operational independence from political factors.</task>
                 <task>Built a configuration change-tracking service to reduce detection time for faulty configurations.</task>
