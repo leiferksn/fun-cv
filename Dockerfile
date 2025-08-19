@@ -17,6 +17,8 @@ ENV ROOT_PATH=${root_path}
 
 COPY --from=build /app/index.html $ROOT_PATH 
 COPY --from=build /app/robots.txt $ROOT_PATH
+COPY --from=build /app/sitemap.xml $ROOT_PATH
+
 COPY --from=build /nginx.template /etc/nginx/nginx.template
 
 COPY --from=build /app/entrypoint.sh /entrypoint.sh

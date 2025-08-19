@@ -155,7 +155,7 @@
         <div class="box">
 
             <div class="left">
-                <img class="photo">
+                <img class="photo" alt="Vesselin Beltchev">
                   <xsl:attribute name="src">
                     <xsl:value-of select="cv/content/photo/@src"/>
                   </xsl:attribute>
