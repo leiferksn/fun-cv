@@ -161,7 +161,7 @@
                   </xsl:attribute>
                 </img>
                 <div class="contact">
-                  <p> <xsl:value-of select="cv/content/contact/@phone"/> </p>
+                  <!-- <p> <xsl:value-of select="cv/content/contact/@phone"/> </p> -->
                   <p>
                     <a target="_blank">
                       <xsl:attribute name="href">
