@@ -12,21 +12,44 @@
     </styling>
     <content>
         <title>
-            Vesselin Beltchev - Independent Software Engineer
+            Vesselin Beltchev - Independent Software Engineer and Senior Java Developer
         </title>
-    <intro name="Vesselin Beltchev" title="Software Engineer">
-        <paragraph>Experienced Software Engineer with a passion for creating sleek, powerful applications. Turning complexity into simplicity with elegant code is my ultimate goal. I'm in my element, when I build a backend system, but I do not run away from exciting tasks in any other software area. That often got me poking my nose into frontend and DevOps. Successully, I might add. Writing clean and concise code is my OCD.  How do you measure clean code, you might ask? My answer - the cleaner the code, the lesser the maintenance effort.</paragraph>
-        <paragraph>I don't shy away from deep and muddy waters. In fact, that's how my path to where I am now has been. My weapon of choice is Java. Some say it's slow and heavy, but I say it's solid, sturdy, durable (Remember how Kotlin prophets foretold that Java's end is nigh?) and it has never let me down. Every now and then, mostly but not exclusively in my spare time, I’ve also ventured into C, Python and C++, Kotlin and lately also Go (I like).</paragraph>
-        <paragraph>Finding out what's causing a problem is a challenge I accept willingly. I always dig to find out what started an issue and how it effects the whole system. Negotiating terms between two software parts is where I start. Remember what Linus Torvalds said? Never break user-space. A contract is a bond. Turning requirements into tests and checking a solution against them, goes a long way. I have a deep, possibly unhealthy belief in the Single Responsibility Principle. I’ve seen it save projects from turning into chaotic spaghetti code disasters.</paragraph>
+    <intro name="Vesselin Beltchev" title="Senior Java Developer">
+        <paragraph>
+            Experienced Senior Java Developer focused on clean, maintainable code and scalable system architectures. Strong advocate of contract-first design and Single Responsibility Principle. Skilled in designing microservices, distributed systems, and leveraging cloud-native technologies. Comfortable with polyglot programming (Java, C++, Python) when needed for optimal solutions.</paragraph>
     </intro>
-    <contact phone="+49 179 776 95 22" email="vesselin.beltchev @bouncystream.tech" mailto="vesselin.beltchev@bouncystream.tech">
+    <contact phone="+49 179 776 95 22" email="@" mailto="vesselin.beltchev@bouncystream.tech" homepage-url="https://www.bouncystream.tech/en/" homepage-label="www">
     </contact>
     <photo src="https://www.bouncystream.tech/en/vesselin-beltchev.jpeg">
     </photo>
     <jobs>
-        <job atCompany="Hays AG/Etribes Connect GmbH/gesund.de" onPosition="Freelance Software Developer" from="10.2024" to="10.2024">
+        <job atCompany="Ippen Digital GmbH/Thryve Talent Ltd." onPoisition="Senior Java Developer (Freelance)" from="04.2025" to="now">
             <tasks>
-                <task>My task in this project for gesund.de was to come up with a simple and fast way to read data from the their relational database containing leads, enrich them and pass them on to a REST API of a newsletter system.  This enabled them to run newsletter campaigns for their users. I came up with a concept, implemented it and deployed it on OpenShift.</task>
+                <task>Designed and implemented a Warm-Hot Server architecture using EKS-Anywhere, enabling operational independence from political factors.</task>
+                <task>Built a configuration change-tracking service to reduce detection time for faulty configurations.</task>
+                <task>Migrated CMS configuration service from MySQL to PostgreSQL, significantly reducing latency.</task>
+            </tasks>
+            <technologies>
+                <technology type="LANGUAGES" version="21">Java</technology>
+                <technology type="FRAMEWORKS" version="3.x">Spring Boot</technology>
+                <technology type="FRAMEWORKS" version="3.x">Quarkus</technology>
+                <technology type="DATABASES" version="13.x">PostgreSQL</technology>
+                <technology type="DATABASES" version="8.x">MySQL</technology>
+                <technology type="DATABASES" version="8.x">Liquibase</technology>
+                <technology type="APIs">REST/OpenAPI</technology>
+                <technology type="TEST">TestContainers</technology>
+                <technology type="TEST" version="5.x">JUnit</technology>
+                <technology type="OPERATION">Docker</technology>
+                <technology type="OPERATION">Kubernetes</technology>
+                <technology type="OPERATION">AWS</technology>
+                <technology type="VERSION CONTROL">GIT</technology>
+                <technology type="VERSION CONTROL">SVN</technology>
+            </technologies>
+        </job>
+        <job atCompany="Hays AG/Etribes Connect GmbH/gesund.de" onPosition="Senior Java Developer (Freelance)" from="10.2024" to="10.2024">
+            <tasks>
+                <task>Developed a batch ETL pipeline using Spring Batch, deployed on OpenShift, improving marketing efficiency and reach.</task>
+                <task>Enabled automated marketing campaigns by integrating continuous lead synchronization with Insider's platform.</task>
             </tasks>
             <technologies>
                 <technology type="LANGUAGES" version="17">Java</technology>я
@@ -47,20 +70,16 @@
         </job>
         <job atCompany="Stealth Startup" onPosition="CTO &#038; Co-founder" from="04.2024" to="now">
             <tasks>
-                <task>I co-founded a start-up that is aiming to make professional lives of engineers easier and engineering SMEs more competitive by providing them with a software system for full-system simulation of drives. We'll drastically reduce the amount of money the companies burn by offering flexible licensing and guaranteeng a single source of truth for both their physical and simulation models. I learned that in a start-up one needs to do everthing. Here's a short list of my contributions:</task>
-                <task> - Creation of the overall architecture of the platform.</task>
-                <task> - Design, implementation and release of an MVP. It involved both backend and frontend services.</task>
-                <task> - Running DevOps and cloud operations while keeping eye on the costs.</task>
-                <task> - Creating numerous things I didn't know we would need before we started, such as a tool for calculating profits and losses, a revenue model with which we can run projections and of course numerous versions of pitchdecks and visualizations.</task>
-            </tasks>
-        </job>
-        <job atCompany="Stealth Startup" onPosition="Software Engineer/Architect" from="04.2022" to="03.2024">
-            <tasks>
-                <task>Before we officially founded the company we've built a couple of prototypes that eventually evolved into a REST API for a calculation of a gear geometry. I had a lot of fun in outlining the application's architecture, implementing the REST API, designing the database, setting up the CI/CD pipeline, designing and implementing the E2E tests, integrating the simulation logic into the application, designing and implementing a simple frontend microservice for visualization of gear geometry calculation results.</task>
+                <task>Designed distributed SaaS architecture for gear system simulation targeted at SMEs and independent engineers.</task>
+                <task>Successfully validated feasibility of distributed gear calculation architecture.</task>
             </tasks>
             <technologies>
                 <technology type="LANGUAGES" version="17">Java</technology>
-                <technology type="FRAMEWORKS" version="3.3">Spring Boot</technology>
+                <technology type="LANGUAGES">C</technology>
+                <technology type="LANGUAGES">C++</technology>
+                <technology type="LANGUAGES">Python</technology>
+                <technology type="FRAMEWORKS" version="3.x">Spring Boot</technology>
+                <technology type="FRAMEWORKS" version="17.x">Angular2</technology>
                 <technology type="LIBRARIES">JNA</technology>
                 <technology type="DATABASESS" version="13.x">PostgreSQL</technology>
                 <technology type="DATABASE CHANGE MANAGEMENT">Liquibase</technology>
@@ -77,9 +96,10 @@
                 <technology type="VERSION CONTROL">GIT</technology>
             </technologies>
         </job>
-        <job atCompany="BMW AG/Doubleslash GmbH" onPosition="Freelance Software Engineer" from="11.2022" to="07.2023">
+        <job atCompany="BMW AG/Doubleslash GmbH" onPosition="Senior Java Developer (Freelance)" from="11.2022" to="07.2023">
             <tasks>
-                <task>At BMW I slipped into the shoes of a DevOps guy who helps to migrate a big backend system from OpenShift and On-Prem to AWS. Although I've done DevOps tasks in the past, they were minor in comparison to his project's scale. It was a very well coordinated and organized project, and it was completed successfully to the client's satisfaction. Apart from supporting the migration effort, I also had to migrate tests and make ongoing changes in the business logic. Alongside all the valuable experiences I got from this project, being able to refresh my memories on PL/SQL was an unexpected win for me.</task>
+                <task>Migrated Connected Drive backend systems from OpenShift to AWS.</task>
+                <task>Reconfigured monitoring and alerting systems to ensure smooth cloud operation and proactive failure detection.</task>
             </tasks>
             <technologies>
                 <technology type="LANGUAGES" version="11">Java</technology>
@@ -108,9 +128,10 @@
                 <technology type="VERSION CONTROL">GIT</technology>
             </technologies>
         </job>
-        <job atCompany="Bundesagentur für Arbeit/Sidion GmbH" onPosition="Freelance Software Engineer" from="11.2022" to="07.2023">
+        <job atCompany="Bundesagentur für Arbeit/Sidion GmbH" onPosition="Senior Java Developer (Freelance)" from="11.2022" to="07.2023">
             <tasks>
-                <task>In this project for the German Federal Employment Agency, my job together with a small team of developers was to create the new agency's child benefit application system. Staff changes during the project required that I take on the lead developer's role in the project, giving me the opportunity to make design decisions and contribute to the development of the frontend service apart in addition to being responisble for the backend service and the implementation of connectivities to external APIs.</task>
+                <task>Developed a child benefit application system based on a modern microservices architecture.</task>
+                <task>Improved scalability and maintainability of the system through modular service implementation.</task>
             </tasks>
             <technologies>
                 <technology type="LANGUAGES" version="11">Java</technology>
@@ -136,9 +157,10 @@
                 <technology type="VERSION CONTROL">GIT</technology>
             </technologies>
         </job>
-        <job atCompany="FinAPIs GmbH" onPosition="Senior Software Engineer" from="02.2020" to="03.2022">
+        <job atCompany="FinAPIs GmbH" onPosition="Senior Java Developer" from="02.2020" to="03.2022">
             <tasks>
-                <task>Online shops and comparison platforms are very strict when it comes to letting you buy products or signing contracts online. So as part of the process, they work with your bank to check if you can pay for the products. At FinAPI we provided them with a tool that works seamlessly and your income and expenses are well categorized, allowing them to make decisions on your creditworthiness. Only if you granted them access to this information, of course. My job, in a small team of 5 developers, was to help design and implement a distributed REST API for the Digital Account Check (DAC). I had the opportunity to be involved in all phases of the development and see the system grow. Some of my additional responsibilities in the project included code reviews and designing and implementing E2E tests.</task>
+                <task>Expanded FinAPI’s product portfolio and market share by implementing a new KYC (Know-Your-Customer) solution.</task>
+                <task>Conducted code reviews for a 5-member development team to maintain high-quality standards.</task>
             </tasks>
             <technologies>
                 <technology type="LANGUAGES" version="11">Java</technology>
@@ -160,9 +182,9 @@
                 <technology type="VERSION CONTROL">GIT</technology>
             </technologies>
         </job>
-        <job atCompany="Ippen Digital GmbH" onPosition="Senior Software Engineer" from="10.2015" to="01.2020">
+        <job atCompany="Ippen Digital GmbH" onPosition="Senior Java Developer" from="10.2015" to="01.2020">
             <tasks>
-                <task>There are other content management systems besides Wordpress in the world. Some of them are a lot bigger. Like the one at Ippen Digital GmbH. Designed to serve dozens of different online newspapers, it has its own data pipeline for providing content from a bunch of sources. In the beginning, my job in the backend team was to maintain the CMS and the pipeline. Shortly after I started, the pipeline needed to be replaced with a new one. The backend team and I switched to designing and developing that system. Unlike the old one, which was built on batch architecture, the one was built on real-time streaming architecture using Kafka for exchange of data between services. I was able to experience firsthand the pros and cons of both worlds.</task>
+                <task>Re-designed the internal multi-tenant CMS's ETL pipeline using real-time processing technologies, increasing throughput.</task>
             </tasks>
             <technologies>
                 <technology type="LANGUAGES" version="11">Java</technology>
@@ -192,9 +214,9 @@
                 <technology type="VERSION CONTROL">GIT</technology>
             </technologies>
         </job>
-        <job atCompany="NTT Data Deutschland GmbH" onPosition="Software Developer" from="10.2008" to="09.2015">
+        <job atCompany="NTT Data Deutschland GmbH" onPosition="Java Developer" from="10.2008" to="09.2015">
             <tasks>
-                <task>My job at NTT Data Deutschland was to develop custom software systems for external companies based on their requirements. Since Docker wasn't invented until 2013, we deployed the applications on Glassfish and WebLogic and servlet containers like Tomcat for. Another part of my responsibilities was maintaining existing systems. More specifically, this included talking to customers, documenting their requirements and transforming them into features by developing almost exclusively in Java and with Java-based frameworks. Our clients were mostly big companies from the automotive and telecommunications industries and governmental institutions. Working in the competitive market of providing custom software solutions was invaluable to me.</task>
+                <task>Maintained and extended Connected Drive backend for BMW, prolonging system lifecycle</task>
             </tasks>
             <technologies>
                 <technology type="LANGUAGES" version="8">Java</technology>
@@ -229,9 +251,9 @@
                 <technology type="VERSION CONTROL">CVS</technology>
             </technologies>
         </job>
-        <job atCompany="BMW AG/EVA Fahrzeugtechnik GmbH" onPosition="Senior Software Engineer" from="04.2008" to="10.2008">
+        <job atCompany="BMW AG/EVA Fahrzeugtechnik GmbH" onPosition="Java Developer (Working Student)" from="04.2008" to="10.2008">
             <tasks>
-                <task>At BMW I was finalizing a software tool for evaluation of future technologies based on physical effects. This was part of my work which I started in my master’s thesis at the Department of Product Development (TU Munich).</task>
+                <task>Finalized a software tool for evaluating future automotive technologies which was designed as part of my master's thesis.</task>
             </tasks>
             <technologies>
                 <technology type="LANGUAGES" version="6">Java</technology>

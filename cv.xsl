@@ -138,6 +138,14 @@
                       <xsl:value-of select="cv/content/contact/@email"/>
                     </a>
                   </p>
+                  <p>
+                    <a target="_blank">
+                      <xsl:attribute name="href">
+                        <xsl:value-of select="cv/content/contact/@homepage-url"/>
+                      </xsl:attribute>
+                      <xsl:value-of select="cv/content/contact/@homepage-label"/>
+                    </a>
+                  </p>
                 </div>
             </div>
 
