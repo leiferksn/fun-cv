@@ -38,7 +38,7 @@
     "sameAs": [
       "https://www.linkedin.com/in/bouncystream/"
     ],
-    "description": "Helping businesses make their processes easier and faster by switching to elegant digital solutions."
+    "description": "Static HTML Version of my CV generated with XSLT."
   }
   </script>
 
