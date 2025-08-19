@@ -2,6 +2,8 @@
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
+<xsl:output method="html" indent="yes"/>
+
 <xsl:key name="techByType" match="technology" use="@type"/>
 
 <xsl:template match="/">
@@ -10,6 +12,36 @@
     <title>
       <xsl:value-of select="/cv/content/title"/>
     </title>
+
+  <meta name="author" content="Vesselin Beltchev" />
+  <meta name="description" content="Static HTML Version of my CV generated with XSLT." />
+
+  <meta property="og:title" content="Vesselin Beltchev | Independent Software Engineer and Senior Java Developer" />
+  <meta property="og:description" content="Static HTML Version of my CV generated with XSLT." />
+  <meta property="og:image" content="https://www.bouncystream.tech/en/vesselin-beltchev.jpeg" />
+  <meta property="og:url" content="https://cv.bouncystream.tech/" />
+  <meta property="og:type" content="website" />
+  <!-- Optional: For better social media sharing -->
+  <meta property="og:site_name" content="cv.bouncystream.tech" />
+  <meta property="og:locale" content="en_US" />
+
+  <link rel="canonical" href="https://cv.bouncystream.tech/" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Vesselin Beltchev",
+    "jobTitle": "Independent Software Engineer and Senior Java Developer",
+    "url": "https://www.bouncystream.tech/en/",
+    "image": "https://www.bouncystream.tech/en/vesselin-beltchev.jpeg",
+    "sameAs": [
+      "https://www.linkedin.com/in/bouncystream/"
+    ],
+    "description": "Helping businesses make their processes easier and faster by switching to elegant digital solutions."
+  }
+  </script>
+
   </head>
   <style>
     body {
