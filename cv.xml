@@ -216,7 +216,7 @@
         </job>
         <job atCompany="NTT Data Deutschland GmbH" onPosition="Java Developer" from="10.2008" to="09.2015">
             <tasks>
-                <task>Maintained and extended Connected Drive backend for BMW, prolonging system lifecycle</task>
+                <task>Maintained and extended Connected Drive backend systems for BMW, prolonging system lifecycle.</task>
             </tasks>
             <technologies>
                 <technology type="LANGUAGES" version="8">Java</technology>
