@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
- <?xml-stylesheet type="text/xsl" href="cv.xsl"?>
+<?xml-stylesheet type="text/xsl" href="cv.xsl"?>
 <cv>
     <styling>
         <text-color>#000000</text-color>
@@ -16,18 +16,18 @@
         </title>
     <intro name="Vesselin Beltchev" title="Senior Java Developer">
         <paragraph>
-            Experienced Senior Java Developer focused on clean, maintainable code and scalable system architectures. Strong advocate of contract-first design and Single Responsibility Principle. Skilled in designing microservices, distributed systems, and leveraging cloud-native technologies. Comfortable with polyglot programming (Java, C++, Python) when needed for optimal solutions.</paragraph>
+            Experienced Senior Java Developer focused on clean, maintainable code and scalable system architectures. Strong advocate of contract-first design and Single Responsibility Principle. Skilled in designing microservices, distributed systems, and leveraging cloud-native technologies. Comfortable with polyglot programming (Java, C++, Python) when needed for optimal solutions. </paragraph>
     </intro>
     <contact phone="+49 179 776 95 22" email="@" mailto="vesselin.beltchev@bouncystream.tech" homepage-url="https://www.bouncystream.tech/en/" homepage-label="www">
     </contact>
     <photo src="https://www.bouncystream.tech/en/vesselin-beltchev.jpeg">
     </photo>
     <jobs>
-        <job atCompany="Ippen Digital GmbH/Thryve Talent Ltd." onPosition="Senior Java Developer (Freelance)" from="04.2025" to="now">
+        <job atCompany="Company from the media and online publishing industry" onPosition="Senior Java Developer (Freelance)" from="04.2025" to="now">
             <tasks>
-                <task>Developed a concept for a Warm-Hot Server architecture using EKS-Anywhere, enabling operational independence from political factors.</task>
-                <task>Built a configuration change-tracking service to reduce detection time for faulty configurations.</task>
-                <task>Migrated CMS configuration service from MySQL to PostgreSQL, significantly reducing latency.</task>
+                <task>- Developed a concept for a Warm-Hot Server architecture using EKS-Anywhere, enabling operational independence from political factors.</task>
+                <task>- Built a configuration change-tracking service to reduce detection time for faulty configurations.</task>
+                <task>- Migrated a configuration service from MySQL to PostgreSQL, significantly reducing latency.</task>
             </tasks>
             <technologies>
                 <technology type="LANGUAGES" version="21">Java</technology>
@@ -46,10 +46,10 @@
                 <technology type="VERSION CONTROL">SVN</technology>
             </technologies>
         </job>
-        <job atCompany="Hays AG/Etribes Connect GmbH/gesund.de" onPosition="Senior Java Developer (Freelance)" from="10.2024" to="10.2024">
+        <job atCompany="Company from the healthcare industry" onPosition="Senior Java Developer (Freelance)" from="10.2024" to="10.2024">
             <tasks>
-                <task>Developed a batch ETL pipeline using Spring Batch, deployed on OpenShift, improving marketing efficiency and reach.</task>
-                <task>Enabled automated marketing campaigns by integrating continuous lead synchronization with Insider's platform.</task>
+                <task>- Developed a batch ETL pipeline using Spring Batch, deployed on OpenShift, improving marketing efficiency and reach.</task>
+                <task>- Enabled automated marketing campaigns by integrating continuous lead synchronization with a major newsletter platform.</task>
             </tasks>
             <technologies>
                 <technology type="LANGUAGES" version="17">Java</technology>я
@@ -68,10 +68,14 @@
                 <technology type="VERSION CONTROL">GIT</technology>
             </technologies>
         </job>
-        <job atCompany="Stealth Startup" onPosition="CTO &#038; Co-founder" from="04.2024" to="now">
+        <job atCompany="Stealth startup" onPosition="CTO &#038; Co-founder" from="04.2024" to="now">
             <tasks>
-                <task>Designed distributed SaaS architecture for gear system simulation targeted at SMEs and independent engineers.</task>
-                <task>Successfully validated feasibility of distributed gear calculation architecture.</task>
+                <task>Design and development of a collaborative SaaS platform.</task>
+                <task> - Developed the overall architecture of the platform</task>
+                <task> - Created the relational database model based on the domain model</task>
+                <task> - Developed a testing concept (check, JUnit, end-to-end tests with Postman)</task>
+                <task> - Set up the build pipeline, DevOps, and cloud operations</task>
+                <task> - Developed a concept for the licensing model (pay-as-you-go) and set up financial planning</task>
             </tasks>
             <technologies>
                 <technology type="LANGUAGES" version="17">Java</technology>
@@ -96,10 +100,10 @@
                 <technology type="VERSION CONTROL">GIT</technology>
             </technologies>
         </job>
-        <job atCompany="BMW AG/Doubleslash GmbH" onPosition="Senior Java Developer (Freelance)" from="11.2022" to="07.2023">
+        <job atCompany="Company from the automotive industry" onPosition="Senior Java Developer (Freelance)" from="11.2022" to="07.2023">
             <tasks>
-                <task>Migrated Connected Drive backend systems from OpenShift to AWS.</task>
-                <task>Reconfigured monitoring and alerting systems to ensure smooth cloud operation and proactive failure detection.</task>
+                <task>- Migrated Connected Drive backend systems from OpenShift to AWS.</task>
+                <task>- Reconfigured monitoring and alerting systems to ensure smooth cloud operation and proactive failure detection.</task>
             </tasks>
             <technologies>
                 <technology type="LANGUAGES" version="11">Java</technology>
@@ -128,10 +132,10 @@
                 <technology type="VERSION CONTROL">GIT</technology>
             </technologies>
         </job>
-        <job atCompany="Bundesagentur für Arbeit/Sidion GmbH" onPosition="Senior Java Developer (Freelance)" from="11.2022" to="07.2023">
+        <job atCompany="Company from the public sector" onPosition="Senior Java Developer (Freelance)" from="11.2022" to="07.2023">
             <tasks>
-                <task>Developed a child benefit application system based on a modern microservices architecture.</task>
-                <task>Improved scalability and maintainability of the system through modular service implementation.</task>
+                <task> - Improvement of the solution’s scalability and maintainability through the implementation of services based on a modern microservice architecture</task>
+                <task> - Ensured the reuse of external systems through the implementation of integrations with legacy interfaces (SOAP)</task>
             </tasks>
             <technologies>
                 <technology type="LANGUAGES" version="11">Java</technology>
@@ -157,10 +161,10 @@
                 <technology type="VERSION CONTROL">GIT</technology>
             </technologies>
         </job>
-        <job atCompany="FinAPIs GmbH" onPosition="Senior Java Developer" from="02.2020" to="03.2022">
+        <job atCompany="FinAPI GmbH" onPosition="Senior Java Developer" from="02.2020" to="03.2022">
             <tasks>
-                <task>Expanded FinAPI’s product portfolio and market share by implementing a new KYC (Know-Your-Customer) solution.</task>
-                <task>Conducted code reviews for a 5-member development team to maintain high-quality standards.</task>
+                <task> - Expanding the product portfolio and market presence by contributing to the implementation of a new solution from scratch.</task>
+                <task> - Conducted code reviews for the development team to maintain high-quality standards.</task>
             </tasks>
             <technologies>
                 <technology type="LANGUAGES" version="11">Java</technology>
@@ -184,7 +188,9 @@
         </job>
         <job atCompany="Ippen Digital GmbH" onPosition="Senior Java Developer" from="10.2015" to="01.2020">
             <tasks>
-                <task>Re-designed the internal multi-tenant CMS's ETL pipeline using real-time processing technologies, increasing throughput.</task>
+                <task> - Improving processing efficiency and overall system performance by contributing to the redesign of an internal data pipeline.</task>
+                <task> - Contributed to the expansion of the client base through the implementation of new features in the existing content management system.</task>
+                <task> - Expansion of the readership through the integration of new content sources into the batch ETL pipeline.</task>
             </tasks>
             <technologies>
                 <technology type="LANGUAGES" version="11">Java</technology>
@@ -216,7 +222,7 @@
         </job>
         <job atCompany="NTT Data Deutschland GmbH" onPosition="Java Developer" from="10.2008" to="09.2015">
             <tasks>
-                <task>Maintained and extended Connected Drive backend systems for BMW, prolonging system lifecycle.</task>
+                <task> - Cost optimization and extension of the product life-cycle through maintenance and further development of a number of existing software systems.</task>
             </tasks>
             <technologies>
                 <technology type="LANGUAGES" version="8">Java</technology>
@@ -253,7 +259,9 @@
         </job>
         <job atCompany="BMW AG/EVA Fahrzeugtechnik GmbH" onPosition="Java Developer (Working Student)" from="04.2008" to="10.2008">
             <tasks>
-                <task>Finalized a software tool for evaluating future automotive technologies which was designed as part of my master's thesis.</task>
+                <task>Finalization of a software tool for the evaluation of future technologies based on physical effects</task>
+                <task> - The tool was simultaneously the final result of my thesis at the Chair of Product Development (TU Munich).</task>
+                <task> - Validation of a new approach to shorten time-to-market and improve the competitiveness through early identification of innovative technologies.</task>
             </tasks>
             <technologies>
                 <technology type="LANGUAGES" version="6">Java</technology>
