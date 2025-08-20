@@ -76,6 +76,7 @@
                 <task> - Developed a testing concept (check, JUnit, end-to-end tests with Postman)</task>
                 <task> - Set up the build pipeline, DevOps, and cloud operations</task>
                 <task> - Developed a concept for the licensing model (pay-as-you-go) and set up financial planning</task>
+                <task> - Keeping operation costs at minimum by optimizing resourcesDesign</task>
             </tasks>
             <technologies>
                 <technology type="LANGUAGES" version="17">Java</technology>
