@@ -18,7 +18,7 @@
 
   <meta property="og:title" content="Vesselin Beltchev | Independent Software Engineer and Senior Java Developer" />
   <meta property="og:description" content="Static HTML Version of my CV generated with XSLT." />
-  <meta property="og:image" content="https://www.bouncystream.tech/en/vesselin-beltchev.jpeg" />
+  <meta property="og:image" content="https://www.bouncystream.tech/vesselin-beltchev.jpeg" />
   <meta property="og:url" content="https://cv.bouncystream.tech/" />
   <meta property="og:type" content="website" />
   <!-- Optional: For better social media sharing -->
@@ -33,8 +33,8 @@
     "@type": "Person",
     "name": "Vesselin Beltchev",
     "jobTitle": "Independent Software Engineer and Senior Java Developer",
-    "url": "https://www.bouncystream.tech/en/",
-    "image": "https://www.bouncystream.tech/en/vesselin-beltchev.jpeg",
+    "url": "https://cv.bouncystream.tech/",
+    "image": "https://www.bouncystream.tech/vesselin-beltchev.jpeg",
     "sameAs": [
       "https://www.linkedin.com/in/bouncystream/"
     ],

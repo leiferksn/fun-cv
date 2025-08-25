@@ -18,9 +18,9 @@
         <paragraph>
             Experienced Senior Java Developer focused on clean, maintainable code and scalable system architectures. Strong advocate of contract-first design and Single Responsibility Principle. Skilled in designing microservices, distributed systems, and leveraging cloud-native technologies. Comfortable with polyglot programming (Java, C++, Python) when needed for optimal solutions. </paragraph>
     </intro>
-    <contact phone="+49 179 776 95 22" email="@" mailto="vesselin.beltchev@bouncystream.tech" homepage-url="https://www.bouncystream.tech/en/" homepage-label="www">
+    <contact phone="+49 179 776 95 22" email="@" mailto="vesselin.beltchev@bouncystream.tech" homepage-url="https://www.bouncystream.tech/" homepage-label="www">
     </contact>
-    <photo src="https://www.bouncystream.tech/en/vesselin-beltchev.jpeg">
+    <photo src="https://www.bouncystream.tech/vesselin-beltchev.jpeg">
     </photo>
     <jobs>
         <job atCompany="Company from the media and online publishing industry" onPosition="Senior Java Developer (Freelance)" from="04.2025" to="now">
